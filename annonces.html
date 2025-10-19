@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>TeamUp.gg</title>
+        <link href="css/base.css" rel="stylesheet">
+        <link href="css/annonces.css" rel="stylesheet">
+        <link href="css/all.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="logo">TeamUp<span>.gg</span></div>
+
+                <ul class="nav-links">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="index.html">Comment ca march</a></li>
+                    <li><a href="joueurs.html">Joueurs</a></li>
+                    <li><a href="annonces.html">Annonces</a></li>
+                    <li><a href="index.html">Community</a></li>
+                    <li><a href="#" class="btn btn--primary">Connexion</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="m-section">
+                <h2>Announcments</h2>
+                <div class="container border--primary flex-row align-end gap-m">
+                    <div class="flex-col grow-1">
+                        <label class="label" for="game-selector">Jeux</label>
+                        <select class="selector border--primary" name="game-selector">
+                            <option value="" selected disabled hidden>Select an option</option>
+                            <option value="Valorant">Valorant</option>
+                            <option value="CS2">CS2</option>
+                            <option value="Leagueoflegends">Leagues of legends</option>
+                        </select>
+                    </div>
+
+
+                    <div class="flex-col grow-1">
+                        <label class="label" for="level-selector">Level</label>
+                        <select class="selector border--primary" name="level-selector">
+                            <option value="" selected disabled hidden>Select an option</option>
+                            <option value="level1">Level1</option>
+                            <option value="level2">level2</option>
+                            <option value="level3">Level3</option>
+                        </select>
+                    </div>
+
+
+                    <div class="flex-col grow-1">
+                        <label class="label" for="role-selector">Role</label>
+                        <select class="selector border--primary" name="role-selector">
+                            <option value="" selected disabled hidden>Select an option</option>
+                            <option value="role1">Role1</option>
+                            <option value="role2">Role2</option>
+                            <option value="role3">Role3</option>
+                        </select>
+                    </div>
+                    <input class="message border--primary" type="text" placeholder="message">           
+                    <a href="" class="btn btn--primary grow-1">Ajouter</a>
+                </div>
+                
+                <div class="content-table">
+                    <div class="content-header">
+                        <div>Jeux</div>
+                        <div>Message</div>
+                        <div>Author</div>
+                        <div>Role</div>
+                        <div>Level</div>
+                        <div>Status</div>
+                    </div>
+
+                     <div class="content-row">
+                        <div class="content-image"><img src="/assets/images/valorant.jpg" alt="profile image">Valorant</div>
+                        <div>En besoin des joueurs pur le role de defence   </div>
+                        <div class="content-image"><img src="/assets/images/zakaria-profile.jpeg" alt="profile image">Zakaria</div>
+                        <div>Defence</div>
+                        <div>Level3</div>
+                        <div>Published</div>
+                    </div>
+
+
+                    <div class="content-row">
+                        <div class="content-image"><img src="/assets/images/xFawzer.jpg" alt="profile image">Valorant</div>
+                        <div>Message</div>
+                        <div class="content-image"><img src="/assets/images/xFawzer.jpg" alt="profile image">xFawzer</div>
+                        <div>Defence</div>
+                        <div>Level3</div>
+                        <div>Clotured</div>
+                    </div>
+
+
+                    <div class="content-row">
+                        <div class="content-image"><img src="/assets/images/cs.jpg" alt="profile image">Counter-Strike</div>
+                        <div>Message</div>
+                        <div class="content-image"><img src="/assets/images/solo.jpg" alt="profile image">Abdo</div>
+                        <div>Defence</div>
+                        <div>Level3</div>
+                        <div>Clotured</div>
+                    </div>
+
+                    <div class="content-row">
+                        <div class="content-image"><img src="/assets/images/pubg.jpg" alt="profile image">Pubg battleground</div>
+                        <div>en besoin dune sniper</div>
+                        <div class="content-image"><img src="/assets/images/youness.png" alt="profile image">Younes</div>
+                        <div>Defence</div>
+                        <div>Level3</div>
+                        <div>Clotured</div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="flex-row gap-m">
+                <section class="bloc">
+                    <h4>TeamUp.gg</h4>
+                    <p>La plateforme E-sport qui connecteles joueurs et les équipes dumonde entier.</p>
+                    <div class="follow-links">
+                        <a class="follow-item" href="#"><i class="fa-brands fa-discord"></i></a>
+                        <a class="follow-item" href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a class="follow-item" href="#"><i class="fa-brands fa-twitch"></i></a>
+                        <a class="follow-item" href="#"><i class="fa-brands fa-youtube"></i></a>    
+                    </div>
+                </section>
+
+                <!-- platforme section  -->
+                <section class="bloc">
+                    <h4>Platforme</h4>
+                    <a href="#">Trouver une équipe</a>                
+                    <a href="#">Créer un profil</a>                
+                    <a href="#">Tournois</a>                
+                    <a href="#">Classements</a>                
+                </section>
+
+                <!-- jeux section  -->
+                <section class="bloc">
+                    <h4>Jeux</h4>
+                    <a href="#">Valorant</a>
+                    <a href="#">League of Legends</a>
+                    <a href="#">Counter-Strike 2</a>
+                    <a href="#">Overwatch 2</a>
+                </section>
+
+                <!-- support  -->
+                <section class="bloc">
+                    <h4>Support</h4>
+                    <a href="#">Centre d'aide</a>
+                    <a href="#">Conditions d'utilisation</a>
+                    <a href="#">Politique de confidentialité</a>
+                    <a href="#">Contact</a>
+                </section>
+            </div>
+            <p class="text-center mt-xxl">© 2025 TeamUp.gg. Tous droits réservés. Tayeb SOUINI, Formateur Référent Youcoude Youssoufia</p>
+        </footer>
+    </body>
+</html>

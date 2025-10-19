@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>TeamUp.gg</title>
+        <link href="css/base.css" rel="stylesheet">
+        <link href="css/all.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="logo">TeamUp<span>.gg</span></div>
+
+                <ul class="nav-links">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="index.html">Comment ca march</a></li>
+                    <li><a href="joueurs.html">Joueurs</a></li>
+                    <li><a href="annonces.html">Annonces</a></li>
+                    <li><a href="index.html">Community</a></li>
+                    <li><a href="#" class="btn btn--primary">Connexion</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+
+            <!-- search bar  -->
+             <section class="container border--primary flex-col m-section">
+                <h4 class="text-center">Recherche un Joueur</h4>
+                <div class="flex-row align-end">
+
+                    <!-- game selector  -->
+                    <div class="flex-col grow-1">
+                        <label class="label" for="game-selector">Jeux</label>
+                        <select class="selector border--primary" name="game-selector">
+                            <option value="" selected disabled hidden>Selectionner un jeux</option>
+                            <option value="Valorant">Valorant</option>
+                            <option value="CS2">CS2</option>
+                            <option value="Leagueoflegends">Leagues of legends</option>
+                        </select>
+                    </div>
+
+                    <!-- role selector  -->
+                    <div class="flex-col grow-1">
+                        <label class="label" for="role-selector">Role</label>
+                        <select class="selector border--primary" name="role-selector">
+                            <option value="" selected disabled hidden>Selectionner un role</option>
+                            <option value="role1">Role1</option>
+                            <option value="role2">Role2</option>
+                            <option value="role3">Role3</option>
+                        </select>
+                    </div>
+
+                    <!-- level selector  -->
+                    <div class="flex-col grow-1">
+                        <label class="label" for="level-selector">Niveau</label>
+                        <select class="selector border--primary" name="level-selector">
+                            <option value="" selected disabled hidden>Selectionner un niveau</option>
+                            <option value="level1">Level1</option>
+                            <option value="level2">Level2</option>
+                            <option value="level3">Level3</option>
+                        </select>
+                    </div>
+
+                    <a href="#" class="btn btn--primary grow-1 text-center">Recherche</a>
+                </div>
+             </section>
+             <!-- Joueurs dispo  -->
+
+             <section id="joueurs" class="mt-xxl">
+                <h2 class="">Joueurs disponibles</h2>
+                <div class="flex-row justifty-center mt-m">
+                    <!-- xfawzer  -->
+                    <article class="container card--width border--primary flex-col gap-m align-center">
+                        <div class="card__profile">
+                            <img src="/assets/images/xFawzer.jpg" alt="profile-img">
+                            <div class="status status--online"></div>
+                        </div>
+                        <h5 class="text-center">xFawzer</h5>
+                        <div class="badge badge--red">Valorant</div>
+                        <div class="flex-row gap-m">
+                            <p class="label">Controller</p>
+                            <p class="label">Diamant II</p>
+                        </div>
+                        <p class="card__text text-center">Main Clove/Omen, cherche équipe compétitivepour ranked push</p>
+                        <a href="#" class="btn btn--primary align-stretch text-center">Voir le profil</a>
+                    </article>
+
+
+                    <!-- zakaria  -->
+                    <article class="container card--width border--primary flex-col gap-m align-center">
+                        <div class="card__profile">
+                            <img src="/assets/images/zakaria-profile.jpeg" alt="profile-img">
+                            <div class="status status--online"></div>
+                        </div>
+                        <h5 class="text-center">zakaria</h5>
+                        <div class="badge badge--blue">League of Legends</div>
+                        <div class="flex-row gap-m">
+                            <p class="label">Mid Lane</p>
+                            <p class="label">Maître</p>
+                        </div>
+                        <p class="card__text text-center">Joueur mid expérimenté, disponible pour scrims et tournois</p>
+                        <a href="#" class="btn btn--primary align-stretch text-center">Voir le profil</a>
+                    </article>
+
+                    <!-- Younes  -->
+                    <article class="container card--width border--primary flex-col gap-m align-center">
+                        <div class="card__profile">
+                            <img src="/assets/images/youness.png" alt="profile-img">
+                            <div class="status status--offline"></div>
+                        </div>
+                        <h5 class="text-center">youness</h5>
+                        <div class="badge badge--yellow">cs2</div>
+                        <div class="flex-row gap-m">
+                            <p class="label">AWPer</p>
+                            <p class="label">Global Elite</p>
+                        </div>
+                        <p class="card__text text-center">AWP main, 3000h de jeu, cherche équipesérieuse</p>
+                        <a href="#" class="btn btn--primary align-stretch text-center">Voir le profil</a>
+                    </article>
+
+                    <!-- abderzak  -->
+                    <article class="container card--width border--primary flex-col gap-m align-center">
+                        <div class="card__profile">
+                            <img src="/assets/images/solo.jpg" alt="profile-img">
+                            <div class="status status--online"></div>
+                        </div>
+                        <h5 class="text-center">abderzak</h5>
+                        <div class="badge badge--red">cs2</div>
+                        <div class="flex-row gap-m">
+                            <p class="label">AWPer</p>
+                            <p class="label">Global Elite</p>
+                        </div>
+                        <p class="card__text text-center">Main Omen/Viper, bon game sense et communication</p>
+                        <a href="#" class="btn btn--primary align-stretch text-center">Voir le profil</a>
+                    </article>
+
+                    <!-- bahou  -->
+                    <article class="container card--width border--primary flex-col gap-m align-center">
+                        <div class="card__profile">
+                            <img src="/assets/images/solo.jpg" alt="profile-img">
+                            <div class="status status--online"></div>
+                        </div>
+                        <h5 class="text-center">League of Legends</h5>
+                        <div class="badge badge--red">cs2</div>
+                        <div class="flex-row gap-m">
+                            <p class="label">AWPer</p>
+                            <p class="label">Global Elite</p>
+                        </div>
+                        <p class="card__text text-center">Jungle main, macro game fort, dispo tous les soirs</p>
+                        <a href="#" class="btn btn--primary align-stretch text-center">Voir le profil</a>
+                    </article>
+
+                    
+
+                </div>
+             </section>
+
+        </main>
+
+        <footer>
+            <div class="flex-row gap-m">
+                <section class="bloc">
+                    <h4>TeamUp.gg</h4>
+                    <p>La plateforme E-sport qui connecteles joueurs et les équipes dumonde entier.</p>
+                    <div class="follow-links">
+                        <a class="follow-item" href="#"><i class="fa-brands fa-discord"></i></a>
+                        <a class="follow-item" href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a class="follow-item" href="#"><i class="fa-brands fa-twitch"></i></a>
+                        <a class="follow-item" href="#"><i class="fa-brands fa-youtube"></i></a>    
+                    </div>
+                </section>
+
+                <!-- platforme section  -->
+                <section class="bloc">
+                    <h4>Platforme</h4>
+                    <a href="#">Trouver une équipe</a>                
+                    <a href="#">Créer un profil</a>                
+                    <a href="#">Tournois</a>                
+                    <a href="#">Classements</a>                
+                </section>
+
+                <!-- jeux section  -->
+                <section class="bloc">
+                    <h4>Jeux</h4>
+                    <a href="#">Valorant</a>
+                    <a href="#">League of Legends</a>
+                    <a href="#">Counter-Strike 2</a>
+                    <a href="#">Overwatch 2</a>
+                </section>
+
+                <!-- support  -->
+                <section class="bloc">
+                    <h4>Support</h4>
+                    <a href="#">Centre d'aide</a>
+                    <a href="#">Conditions d'utilisation</a>
+                    <a href="#">Politique de confidentialité</a>
+                    <a href="#">Contact</a>
+                </section>
+            </div>
+            <p class="text-center mt-xxl">© 2025 TeamUp.gg. Tous droits réservés. Tayeb SOUINI, Formateur Référent Youcoude Youssoufia</p>
+        </footer>
+    </body>
+</html>
